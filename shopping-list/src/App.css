@@ -1,0 +1,140 @@
+body {
+  background: #1e1e1e;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 200vh;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.app {
+  width: 500px;
+  background: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px #854c62de;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.total-cost {
+  display: flex;
+  justify-content: space-between;
+  background: #3a3a3a;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.add-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-form input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-form button {
+  padding: 8px 12px;
+  background: #066817;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.add-form button:hover {
+  background: #084f3d;
+}
+
+.item-list {
+  background: #3a3a3a;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.item-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #444;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.item-list button {
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+}
+
+.item-list .x-btn {
+  background-color: #ff0707;
+}
+
+.item-list .x-btn:hover {
+  background: #e04a4a;
+  opacity: 0.8;
+}
+
+.item-list .edit-btn {
+  background-color: #066817;
+}
+
+.item-list .edit-btn:hover {
+  background: #084f3d;
+  opacity: 0.8;
+}
+
+.item-list .save-btn {
+  background-color: #066817;
+}
+
+.item-list .save-btn:hover {
+  background: #084f3d;
+  opacity: 0.8;
+}
+
+.item-list .cancel-btn {
+  background-color: #ff0707;
+}
+
+.item-list .cancel-btn:hover {
+  background: #e04a4a;
+  opacity: 0.8;
+}
+
+.item-list .clear {
+  margin: 10px 0px;
+  width: 100%;
+  background: #ff0707;
+  padding: 8px;
+}
+
+.item-list .clear:hover {
+  background: #e04a4a;
+  opacity: 0.8;
+}
